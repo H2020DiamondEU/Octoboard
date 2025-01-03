@@ -1,0 +1,64 @@
+# Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.nbconvert/
+
+# KiCad
+*.pro.bak
+*.sch-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+*-cache.lib
+*-rescue.lib
+*.pretty-bak
+*.net
+*.cmp
+fp-info-cache
+sym-lib-table.bak
+*.tmp
+
+# Data and calibration files
+*.csv
+*.tsv
+*.dat
+*.json
+*.xml
+*.hdf5
+
+# Compiled files and build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.class
+*.jar
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment files
+.env
+*.venv
+.venv/
+*.env.bak
+
+# Documentation
+
+*_info.txt
+info/
