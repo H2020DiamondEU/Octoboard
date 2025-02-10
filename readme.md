@@ -11,14 +11,15 @@ This repository documents the design, implementation, and operation of a massive
 - **Hardware**:
 
   Measurement Chuck
-   - Allows up to **10 substrates (40 solar cells)** to be aged in a **nitrogen atmosphere**.
-   - Compact design: A **Solaronix simulator** (Model: SOLIXON A-45) can accommodate up to eight measurement chucks, enabling the simultaneous testing of **80 substrates (480 cells)**.  
-   - Easy Sample Replacement: Single chucks within the setup can be exchanged during ongoing measurements without breaking the nitrogen atmosphere or interupting the other measurements within the same sun simulator.  
+   - Allows up to 10 substrates (40 solar cells) to be aged in a nitrogen atmosphere.
+   - Compact design: Simultaneous testing of 8 chucks corresponding to 80 substrates (480 cells) within a single sun simulator.  
+   - Easy Sample Replacement: Single chucks within the setup can be exchanged during ongoing measurements without breaking the nitrogen atmosphere or interrupting the other measurements within the same sun simulator.  
 
   Octoboards (`Custom-designed PCBs`) for Source Measure Unit (SMU) functions
   - 8 channels per board
   - Modular and scalable design
   - Support for multiple boards via I2C addressing
+
 - **Software**: Python-based control system
   - Efficient MPP tracking algorithm
   - Real-time data logging to CSV
@@ -93,7 +94,7 @@ This repository documents the design, implementation, and operation of a massive
 
 ### 1. Hardware
 
-#### 1.1 Octoboard
+#### **1.1 Octoboard**
 The Octoboard is a custom-designed PCB that forms the core of the MPPT system, providing capabilities for maximum power point tracking in solar cell testing and evaluation.
 
 **Key Components:**
@@ -124,19 +125,14 @@ The MPPT system is designed with a hierarchical structure:
 
 <img src="docs/images/system.png" alt="Octoboard PCB Layout" style="background-color:white; width:400px;" />
 
-#### 1.2 Measurement Chuck 
-The **Measurement Chuck** allows up to **10 substrates (40 solar cells)** to be aged in a **6x50x3 cm volume** under a **nitrogen atmosphere**.
-
-**Key Features**
-- **Modular Design**: The measurement setup is divided into measurement chucks containing 10 cells each, allowing for **easy replacement** of individual strings during an aging experiment.
-- **Scalability**: A **Solaronix solar simulator** (Model: Solixon A-45) can accommodate up to 8 of these measurement chucks, enabling the simultaneous testing of **80 substrates (480 cells)**.  
-- **Controlled Atmosphere**: The chuck is connected to a **pressure regulator** with an **overpressure valve** and requires a supply pressure of approximately **1 bar**.  
-- **Easy Sample Replacement**: Cells can be exchanged during ongoing measurements without breaking the nitrogen atmosphere.  
+#### **1.2 Measurement Chuck**
+The Measurement Chuck allows up to 10 substrates (40 solar cells) to be aged under a nitrogen atmosphere.
+Due to its compact design, up to eight measurement chucks can be fit in a Solaronix SOLIXON A-45 solar simulator. 
 
 **Operation & Handling**
-To replace the substrates inside a chcuk:
+To replace the substrates inside a chuck:
 1. Disconnect the flat ribbon cables and nitrogen supply hoses (quick-connect couplings ensure that the remaining substrates stay in an N₂ atmosphere).
-2. Transfer the chuck to a glovebox, where the cells can be exchanged by loosening the screws like shown in the video below.
+2. Transfer the chuck to a glovebox, where the cells can be exchanged by loosening the screws as shown in the video below.
 3. Reinsert the newly equipped chuck into the sun simulator and attach it to the cables and supply hoses. 
 
 <div style="display: flex; justify-content: flex-start;">
@@ -209,8 +205,8 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## Contact
 For further information on integrating this measurement system into your PV lab, please contact:
-- **Lukas Wagner**, AG Solare Energiekonversion , University of Marburg,  lukas.wagner@physik.uni-marburg.de
-- **Clemens Bartzky**, Fraunhofer ISE, clemens.baretzky@ise.fraunhofer.de
+- **Lukas Wagner**, AG Solare Energiekonversion University of Marburg,  lukas.wagner@physik.uni-marburg.de
+- **Clemens Baretzky**, Fraunhofer ISE, clemens.baretzky@ise.fraunhofer.de
 
 ## Acknowledgments
 This design was developed at the **University of Marburg** and **Fraunhofer ISE**.
