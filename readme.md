@@ -8,7 +8,14 @@
 This repository documents the design, implementation, and operation of a massively parallel, low-cost Maximum Power Point Tracker (MPPT) for aging and degradation studies of perovskite solar cells. The system integrates custom-designed PCBs and software for efficient tracking and data logging.
 
 ## Features
-- **Hardware**: Custom-designed PCBs (`octoboards`) for Source Measure Unit (SMU) functions
+- **Hardware**:
+
+  Measurement Chuck
+   - Allows up to **10 substrates (40 solar cells)** to be aged in a **nitrogen atmosphere**.
+   - Compact design: A **Solaronix simulator** (Model: SOLIXON A-45) can accommodate up to eight measurement chucks, enabling the simultaneous testing of **80 substrates (480 cells)**.  
+   - Easy Sample Replacement: Single chucks within the setup can be exchanged during ongoing measurements without breaking the nitrogen atmosphere or interupting the other measurements within the same sun simulator.  
+
+  Octoboards (`Custom-designed PCBs`) for Source Measure Unit (SMU) functions
   - 8 channels per board
   - Modular and scalable design
   - Support for multiple boards via I2C addressing
@@ -29,11 +36,38 @@ This repository documents the design, implementation, and operation of a massive
 │   │   └── system.png
 │   └── D5.2_100_ch_MPP_tracker.pdf
 ├── hardware/
-│   ├── DAC.kicad_sch
-│   ├── octoboard.kicad_pcb
-│   ├── octoboard.kicad_prl
-│   ├── octoboard.kicad_pro
-│   └── octoboard.kicad_sch
+│   ├── Measurement Chuck Housing CAD Design/
+│   │   ├── Assembly.iam 
+│   │   ├── Assembly.ipj 
+│   │   ├── Bauteil4.ipt 
+│   │   ├── Bauteil5.ipt
+│   │   ├── Bauteil6.ipt
+│   │   ├── chuck_v1.ipt
+│   │   ├── DIN_EN_ISO_2338-3_h8x16.ipt 
+│   │   ├── DIN_EN_ISO_4762-M2x3.ipt 
+│   │   ├── DIN_EN_ISO_4762-M3x5.ipt 
+│   │   ├── DIN_EN_ISO_4762-M3x10.ipt 
+│   │   ├── DIN_EN_ISO_4762-M3x20.ipt 
+│   │   ├── DIN_EN_ISO_7046-2_Z-M2.5x10-8.8-Z1.ipt 
+│   │   ├── Glasscheibe.ipt 
+│   │   ├── Glassubstrat_25x25x2.2.ipt 
+│   │   └── Maske.ipt
+│   ├── Measurement Chuck PCB Design/
+│   │   ├── SubSheet.kicad_sch
+│   │   ├── BOM.csv
+│   │   ├── chuck_v1.dsn
+│   │   ├── chuck_v1.kicad_pcb
+│   │   ├── chuck_v1.kicad_prl
+│   │   ├── chuck_v1.kicad_pro
+│   │   ├── chuck_v1.kicad_sch
+│   │   ├── CPL.csv
+│   │   └── gerber.zip
+│   ├── Octoboard PCB Design/
+│   │   ├── DAC.kicad_sch
+│   │   ├── octoboard.kicad_pcb
+│   │   ├── octoboard.kicad_prl
+│   │   ├── octoboard.kicad_pro
+│   │   └── octoboard.kicad_sch
 ├── software/
 │   ├── hardware/
 │   │   ├── __init__.py
@@ -59,7 +93,7 @@ This repository documents the design, implementation, and operation of a massive
 
 ### 1. Hardware
 
-#### PCBs
+#### 1.1 Octoboard
 The Octoboard is a custom-designed PCB that forms the core of the MPPT system, providing capabilities for maximum power point tracking in solar cell testing and evaluation.
 
 **Key Components:**
@@ -89,6 +123,25 @@ The MPPT system is designed with a hierarchical structure:
 4. Integrated sample holder with thermal management
 
 <img src="docs/images/system.png" alt="Octoboard PCB Layout" style="background-color:white; width:400px;" />
+
+#### 1.2 Measurement Chuck 
+The **Measurement Chuck** allows up to **10 substrates (40 solar cells)** to be aged in a **6x50x3 cm volume** under a **nitrogen atmosphere**.
+
+**Key Features**
+- **Modular Design**: The measurement setup is divided into measurement chucks containing 10 cells each, allowing for **easy replacement** of individual strings during an aging experiment.
+- **Scalability**: A **Solaronix solar simulator** (Model: Solixon A-45) can accommodate up to 8 of these measurement chucks, enabling the simultaneous testing of **80 substrates (480 cells)**.  
+- **Controlled Atmosphere**: The chuck is connected to a **pressure regulator** with an **overpressure valve** and requires a supply pressure of approximately **1 bar**.  
+- **Easy Sample Replacement**: Cells can be exchanged during ongoing measurements without breaking the nitrogen atmosphere.  
+
+**Operation & Handling**
+To replace the substrates inside a chcuk:
+1. Disconnect the flat ribbon cables and nitrogen supply hoses (quick-connect couplings ensure that the remaining substrates stay in an N₂ atmosphere).
+2. Transfer the chuck to a glovebox, where the cells can be exchanged by loosening the screws like shown in the video below.
+3. Reinsert the newly equipped chuck into the sun simulator and attach it to the cables and supply hoses. 
+
+<div style="display: flex; justify-content: flex-start;">
+    <img src="docs/videos/substrate_change.gif" style="width: 50%;">
+</div>
 
 ### 2. Software
 
@@ -154,6 +207,17 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 - [European Commission Project Page](https://cordis.europa.eu/project/id/101084124)
 - [Deliverable Documentation](https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50d1470c5&appId=PPGMS)
 
+## Contact
+For further information on integrating this measurement system into your PV lab, please contact:
+- **Lukas Wagner**, AG Solare Energiekonversion , University of Marburg,  lukas.wagner@physik.uni-marburg.de
+- **Clemens Bartzky**, Fraunhofer ISE, clemens.baretzky@ise.fraunhofer.de
+
 ## Acknowledgments
-<img src="docs/images/EU_logo_funding.png" width="244" height="247" style="margin-right: 20px;" align="left" alt="EU logo" />
-Funded by the European Union in the Horizon 2.5. Climate, Energy and Mobility programme under Grant Agreement No. 101084124. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.
+This design was developed at the **University of Marburg** and **Fraunhofer ISE**.
+The project is funded by the European Union in the Horizon 2.5. Climate, Energy and Mobility programme under Grant Agreement No. 101084124. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.
+
+<img src="docs/images/ise.svg" height="150"  style="margin-right: 20px" />
+<img src="docs/images/_unimr_preview.jpg" height="150" />
+<img src="docs/images/EU_logo_funding.png" height="150" style="margin-right: 20px;"/>
+
+

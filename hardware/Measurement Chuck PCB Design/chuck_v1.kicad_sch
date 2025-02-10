@@ -1,0 +1,60 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "256d3ac7-7784-48be-aa63-e19dd3b49363")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 46.99 31.75)
+		(size 26.67 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f466463e-82e4-4e54-a689-b289c29aeb8b")
+		(property "Sheetname" "SubSheet"
+			(at 46.99 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SubSheet.kicad_sch"
+			(at 46.99 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Feld2" ""
+			(at 46.99 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "chuck_v1"
+				(path "/256d3ac7-7784-48be-aa63-e19dd3b49363"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
