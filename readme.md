@@ -216,8 +216,6 @@ For further information on integrating this measurement system into your PV lab,
 This design was developed at the **University of Marburg** and **Fraunhofer ISE**.
 The project is funded by the European Union in the Horizon 2.5. Climate, Energy and Mobility programme under Grant Agreement No. 101084124. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.
 
-<img src="docs/images/ise.svg" height="150"  style="margin-right: 20px" />
-<img src="docs/images/_unimr_preview.jpg" height="150" />
-<img src="docs/images/EU_logo_funding.png" height="150" style="margin-right: 20px;"/>
-
-
+<div style="display: flex; justify-content: flex-start;">
+    <img src="docs/images/Logos.png"  style="width: 70%;">
+</div>
