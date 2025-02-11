@@ -1,6 +1,5 @@
-<a 
+
   <img src="docs/images/Octoboard_Logo2.png" style="width:100%;" />
-</a>
 
 # Maximum Power Point Tracker for Research-Level Solar Cells
 
