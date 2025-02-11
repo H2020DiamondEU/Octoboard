@@ -1,5 +1,5 @@
-<a href="https://diamond-horizon.eu/">
-  <img src="docs/images/diamond_header.png" style="width:100%;" alt="diamond_header" />
+<a 
+  <img src="docs/images/Octoboard_Logo2.png" style="width:100%;" />
 </a>
 
 # Maximum Power Point Tracker for Research-Level Solar Cells
@@ -208,10 +208,14 @@ For further information on integrating this measurement system into your PV lab,
 - **Lukas Wagner**, AG Solare Energiekonversion University of Marburg,  lukas.wagner@physik.uni-marburg.de
 - **Clemens Baretzky**, Fraunhofer ISE, clemens.baretzky@ise.fraunhofer.de
 
+<div style="display: flex; justify-content: flex-start;">
+    <img src="docs/images/Logos.png"  style="width: 40%;">
+</div>
+
 ## Acknowledgments
 This design was developed at the **University of Marburg** and **Fraunhofer ISE**.
 The project is funded by the European Union in the Horizon 2.5. Climate, Energy and Mobility programme under Grant Agreement No. 101084124. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.
 
 <div style="display: flex; justify-content: flex-start;">
-    <img src="docs/images/Logos.png"  style="width: 70%;">
+    <img src="docs/images/EU_logo_funding.png"  style="width: 30%;">
 </div>
