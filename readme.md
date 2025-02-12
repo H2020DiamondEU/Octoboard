@@ -9,21 +9,26 @@ This repository documents the design, implementation, and operation of a massive
 ## Features
 - **Hardware**:
 
-  Measurement Chuck
-   - Allows up to 10 substrates (40 solar cells) to be aged in a nitrogen atmosphere.
-   - Compact design: Simultaneous testing of 8 chucks corresponding to 80 substrates (480 cells) within a single sun simulator.  
-   - Easy Sample Replacement: Single chucks within the setup can be exchanged during ongoing measurements without breaking the nitrogen atmosphere or interrupting the other measurements within the same sun simulator.  
-
   Octoboards (`Custom-designed PCBs`) for Source Measure Unit (SMU) functions
   - 8 channels per board
   - Modular and scalable design
   - Support for multiple boards via I2C addressing
 
-- **Software**: Python-based control system
-  - Efficient MPP tracking algorithm
-  - Real-time data logging to CSV
-  - Multi-board management
-- **Integration**: Full Raspberry Pi compatibility for control and data acquisition
+  Measurement Chuck
+   - Allows up to 10 substrates (40 solar cells on a "University of Marburg" cell layout) to be aged in a nitrogen atmosphere.
+   - Compact design optimized to fit several chucks under standard solar simulators.  
+   - Easy Sample Replacement: Single chucks within the setup can be exchanged during ongoing measurements without breaking the nitrogen atmosphere or interrupting the other measurements within the same sun simulator.  
+
+- **Software**:
+
+  Python-based control system
+    - Efficient MPP tracking algorithm
+    - Real-time data logging to CSV
+    - Multi-board management
+    
+- **Integration**:
+
+  Full Raspberry Pi compatibility for control and data acquisition
 
 ## Repository Structure
 ```plaintext
@@ -125,7 +130,7 @@ The MPPT system is designed with a hierarchical structure:
 <img src="docs/images/system.png" alt="Octoboard PCB Layout" style="background-color:white; width:400px;" />
 
 #### **1.2 Measurement Chuck**
-The Measurement Chuck allows up to 10 substrates (40 solar cells) to be aged under a nitrogen atmosphere.
+The Measurement Chuck allows up to 10 substrates (40 solar cells on a "University of Marburg" cell layout) to be aged under a nitrogen atmosphere.
 Due to its compact design, up to eight measurement chucks can be fit in a Solaronix SOLIXON A-45 solar simulator. 
 
 **Operation & Handling**
@@ -204,11 +209,11 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## Contact
 For further information on integrating this measurement system into your PV lab, please contact:
-- **Lukas Wagner**, AG Solare Energiekonversion University of Marburg,  lukas.wagner@physik.uni-marburg.de
-- **Clemens Baretzky**, Fraunhofer ISE, clemens.baretzky@ise.fraunhofer.de
+- **Lukas Wagner**, Physics of Solar Energy Conversion Group, Philipps-University Marburg, Germany.
+- **Clemens Baretzky**, Fraunhofer Institute for Solar Energy Systems ISE, Germany.
 
 <div style="display: flex; justify-content: flex-start;">
-    <img src="docs/images/Logos.png"  style="width: 40%;">
+    <img src="docs/images/Logos.png"  style="width: 30%;">
 </div>
 
 ## Acknowledgments
