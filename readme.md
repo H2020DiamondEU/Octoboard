@@ -1,5 +1,7 @@
 <img src="docs/images/Octoboard_Logo2.png" style="width:100%;" />
+
 [![DOI](https://zenodo.org/badge/895091614.svg)](https://doi.org/10.5281/zenodo.14988205)
+
 # Maximum Power Point Tracker for Research-Level Solar Cells
 
 ## Overview
