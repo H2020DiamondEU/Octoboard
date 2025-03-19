@@ -214,7 +214,7 @@ For further information on integrating this measurement system into your PV lab,
 - **Clemens Baretzky**, Fraunhofer Institute for Solar Energy Systems ISE, Germany.
 
 <div style="display: flex; justify-content: flex-start;">
-    <img src="docs/images/Logos.png"  style="width: 30%;">
+    <img src="docs/images/logos.png"  style="width: 30%;">
 </div>
 
 ## Acknowledgments
