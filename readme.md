@@ -215,7 +215,7 @@ For further information on integrating this measurement system into your PV lab,
 
 <div style="display: flex; justify-content: flex-start;">
     <img src="docs/images/logos.png"  style="width: 30%;">
-</div>
+</div> 
 
 ## Acknowledgments
 This design was developed at the **University of Marburg** and **Fraunhofer ISE**.
