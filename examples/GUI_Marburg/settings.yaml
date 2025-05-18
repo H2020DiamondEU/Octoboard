@@ -1,0 +1,582 @@
+id: Measurement_001
+string_chucks:
+- id: '0'
+  type: MR
+  icon: String_Chuck_MR.png
+  cell_slots: 10
+  active: true
+  installed_cells: {}
+  position: 0
+  relative_substrate_positions:
+  - 0.916
+  - 0.8560000000000001
+  - 0.796
+  - 0.736
+  - 0.676
+  - 0.6160000000000001
+  - 0.556
+  - 0.49600000000000005
+  - 0.43600000000000005
+  - 0.376
+  substrates:
+  - id: '0'
+    batch_number: Batch_01
+    type: MR
+    active: true
+    number_of_cells: 4
+    icon: UMR_Cell_Design.png
+    cells:
+    - id: '0'
+      TCA_Channel: 0
+      Octoboard_number: 0
+      Channel: 0
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '1'
+      TCA_Channel: 0
+      Octoboard_number: 0
+      Channel: 1
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '2'
+      TCA_Channel: 0
+      Octoboard_number: 0
+      Channel: 2
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '3'
+      TCA_Channel: 0
+      Octoboard_number: 0
+      Channel: 3
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+  - id: '1'
+    batch_number: Batch_01
+    type: MR
+    active: true
+    number_of_cells: 4
+    icon: UMR_Cell_Design.png
+    cells:
+    - id: '4'
+      TCA_Channel: 0
+      Octoboard_number: 0
+      Channel: 4
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '5'
+      TCA_Channel: 0
+      Octoboard_number: 0
+      Channel: 5
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '6'
+      TCA_Channel: 0
+      Octoboard_number: 0
+      Channel: 6
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '7'
+      TCA_Channel: 0
+      Octoboard_number: 0
+      Channel: 7
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+  - id: '2'
+    batch_number: Batch_01
+    type: MR
+    active: true
+    number_of_cells: 4
+    icon: UMR_Cell_Design.png
+    cells:
+    - id: '8'
+      TCA_Channel: 0
+      Octoboard_number: 1
+      Channel: 0
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '9'
+      TCA_Channel: 0
+      Octoboard_number: 1
+      Channel: 1
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '10'
+      TCA_Channel: 0
+      Octoboard_number: 1
+      Channel: 2
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '11'
+      TCA_Channel: 0
+      Octoboard_number: 1
+      Channel: 3
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+  - id: '3'
+    batch_number: Batch_01
+    type: MR
+    active: true
+    number_of_cells: 4
+    icon: UMR_Cell_Design.png
+    cells:
+    - id: '12'
+      TCA_Channel: 0
+      Octoboard_number: 1
+      Channel: 4
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '13'
+      TCA_Channel: 0
+      Octoboard_number: 1
+      Channel: 5
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '14'
+      TCA_Channel: 0
+      Octoboard_number: 1
+      Channel: 6
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '15'
+      TCA_Channel: 0
+      Octoboard_number: 1
+      Channel: 7
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+  - id: '4'
+    batch_number: Batch_01
+    type: MR
+    active: true
+    number_of_cells: 4
+    icon: UMR_Cell_Design.png
+    cells:
+    - id: 16
+      TCA_Channel: 0
+      Octoboard_number: 2
+      Channel: 0
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.15
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: 17
+      TCA_Channel: 0
+      Octoboard_number: 2
+      Channel: 1
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.15
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: 18
+      TCA_Channel: 0
+      Octoboard_number: 2
+      Channel: 2
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.15
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: 19
+      TCA_Channel: 0
+      Octoboard_number: 2
+      Channel: 3
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.15
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+  - id: '5'
+    batch_number: Batch_01
+    type: MR
+    active: true
+    number_of_cells: 4
+    icon: UMR_Cell_Design.png
+    cells:
+    - id: '20'
+      TCA_Channel: 0
+      Octoboard_number: 2
+      Channel: 4
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '21'
+      TCA_Channel: 0
+      Octoboard_number: 2
+      Channel: 5
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '22'
+      TCA_Channel: 0
+      Octoboard_number: 2
+      Channel: 6
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '23'
+      TCA_Channel: 0
+      Octoboard_number: 2
+      Channel: 7
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+  - id: '6'
+    batch_number: Batch_01
+    type: MR
+    active: true
+    number_of_cells: 4
+    icon: UMR_Cell_Design.png
+    cells:
+    - id: '24'
+      TCA_Channel: 0
+      Octoboard_number: 3
+      Channel: 0
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '25'
+      TCA_Channel: 0
+      Octoboard_number: 3
+      Channel: 1
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '26'
+      TCA_Channel: 0
+      Octoboard_number: 3
+      Channel: 2
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '27'
+      TCA_Channel: 0
+      Octoboard_number: 3
+      Channel: 3
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+  - id: '7'
+    batch_number: Batch_01
+    type: MR
+    active: true
+    number_of_cells: 4
+    icon: UMR_Cell_Design.png
+    cells:
+    - id: '28'
+      TCA_Channel: 0
+      Octoboard_number: 3
+      Channel: 4
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '29'
+      TCA_Channel: 0
+      Octoboard_number: 3
+      Channel: 5
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '30'
+      TCA_Channel: 0
+      Octoboard_number: 3
+      Channel: 6
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '31'
+      TCA_Channel: 0
+      Octoboard_number: 3
+      Channel: 7
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+  - id: '8'
+    batch_number: Batch_01
+    type: MR
+    active: true
+    number_of_cells: 4
+    icon: UMR_Cell_Design.png
+    cells:
+    - id: '32'
+      TCA_Channel: 1
+      Octoboard_number: 0
+      Channel: 0
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '33'
+      TCA_Channel: 1
+      Octoboard_number: 0
+      Channel: 1
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '34'
+      TCA_Channel: 1
+      Octoboard_number: 0
+      Channel: 2
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '35'
+      TCA_Channel: 1
+      Octoboard_number: 0
+      Channel: 3
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+  - id: '9'
+    batch_number: Batch_01
+    type: MR
+    active: true
+    number_of_cells: 4
+    icon: UMR_Cell_Design.png
+    cells:
+    - id: '36'
+      TCA_Channel: 1
+      Octoboard_number: 0
+      Channel: 4
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '37'
+      TCA_Channel: 1
+      Octoboard_number: 0
+      Channel: 5
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '38'
+      TCA_Channel: 1
+      Octoboard_number: 0
+      Channel: 6
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+    - id: '39'
+      TCA_Channel: 1
+      Octoboard_number: 0
+      Channel: 7
+      max_allowed_current: 0.015
+      voltage_limits_JV:
+      - -0.3
+      - 1.125
+      timestamp_last_JV: 0
+      Last_JSC: 0.0
+      Last_VOC: 0.5
+      initialized: false
+user: Test_User
+local_folder: DATA
+network_folder: /run/user/1000/gvfs/smb-share:server=vsrz001.hrz-services.uni-marburg.de,share=physik_k$/solar/5_ScientificResults/03_CharacterizationDevelopment/DATA_MPP
+mpp_algorithm: PERTURB_AND_OBSERVE
+CHANNEL_POWER_INCREASE_FACTOR: 1.1
+CHANNEL_POWER_DECREASE_FACTOR: 0.3
+BOARD_DEFAULT_ITERATIONS: 10
+BOARD_DEFAULT_INTERVAL: 0.001
+stepsize_JV: 0.045000000000000026
+settletime_JV: 0.1
+interval_next_JV: 60
